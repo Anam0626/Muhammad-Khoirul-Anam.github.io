@@ -1,0 +1,125 @@
+nav{
+    background: linear-gradient(to left, black 50%, palevioletred 50%);
+}
+
+.home{
+    padding-top: 100px;
+    background: linear-gradient(to left, black 50%, palevioletred 50%);
+}
+
+@media screen and (max-width: 576px) {
+    nav{
+      background:black;
+    }
+
+    .home{
+        background:black;
+    }
+
+    .right h1{
+        padding-top: 50px;
+    }
+
+    .about{
+        margin-top: 100px;
+    }
+
+    .skill{
+        margin-top: 100px;
+    }
+
+    .contact{
+        margin-top: 550px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .navbar-nav .item{
+        color: black;
+    }
+
+    .navbar ul li{
+        padding: 40px;
+    }
+
+    .home .left img{
+        width: 40%;
+        padding-right: 60px;
+    }
+    .about{
+        height: 350px;
+    }
+}
+
+.social-media .sosmed{
+    display: grid;
+    row-gap: 1rem;
+    padding: 20px 0px 20px 0px;
+    color: black;
+}
+
+.navbar-nav a{
+    color: palevioletred;
+    font-family: fantasy;
+    font-size: 35px;
+}
+
+.navbar-nav a:hover{
+    color: white;
+    font-size: 45px;
+}
+
+.home .left img{
+    width: 40%;
+}
+
+.home .left img:hover{
+    width: 45%;
+}
+
+.home .right{
+    align-items: center;
+    color: palevioletred;
+    font-family: fantasy;
+}
+
+.about h1{
+    color: palevioletred;
+    font-family: fantasy;
+}
+
+.about p{
+    color: black;
+    font-family: Aldrich;
+    text-align: justify;
+    padding-top: 30px;
+}
+
+.skill{
+    height: 500px;
+}
+
+.skill .row{
+    margin-top: 30px;
+}
+
+.skill .card{
+    background-color: palevioletred;
+    width: 18rem;
+    border: 3px solid black;
+}
+
+.skill h1{
+    color: palevioletred;
+    text-align: center;
+    font-family: fantasy;
+}
+
+.skill .card:hover{
+    color: white;
+}
+
+.skill .card-text{
+    text-align: center;
+    color: white;
+}
